@@ -1,5 +1,42 @@
-body {
-    width: 100%;
-    background-image: url("assets\images\background.jpg");
-    background-position: center;
+main {
+    /* background image not working */
+    background-color: lightgray;
+    
+    /* background-image: url ("./assets/images/background.jpg");
+    background-size: contain; */
+}
+#thumbnail {
+    float: left;
+    padding-right: 20px;
+}
+.navbar-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #68bea2e7;
+    
+}
+footer {
+    background-color: grey;
+    color: lightslategrey;
+    text-align: center;
+    
+}
+
+.box {
+    margin-top: 50px;
+    box-sizing: border-box;
+    background: white;
+
+}
+.boxhead {
+    margin-top: -10px;
+    /* margin-bottom: 10px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #68bea2e7;
+ 
+}
+.info {
+    margin: 20px;
+    
 }
