@@ -1,3 +1,5 @@
 body {
-    background-image: url(background.jpeg);
+    width: 100%;
+    background-image: url("assets\images\background.jpg");
+    background-position: center;
 }
