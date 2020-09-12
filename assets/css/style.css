@@ -5,7 +5,7 @@ main {
     /* background-image: url ("./assets/images/background.jpg");
     background-size: contain; */
 }
-#thumbnail {
+.thumbnail {
     float: left;
     padding-right: 20px;
 }
