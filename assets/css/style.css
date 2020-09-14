@@ -1,42 +1,44 @@
 main {
-    /* background image not working */
-    background-color: lightgray;
-    
-    /* background-image: url ("./assets/images/background.jpg");
-    background-size: contain; */
+  /* background image not working */
+  /* background-color: lightgray; */
+
+  background: url("../images/background.jpg");
+  background-size: cover;
+
+  min-height: calc(100vh - 95px);
+  display: flex;
+  flex-direction: column;
 }
 .thumbnail {
-    float: left;
-    padding-right: 20px;
+  float: left;
+  padding-right: 20px;
 }
 .navbar-name {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: #68bea2e7;
-    
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #68bea2e7;
 }
 footer {
-    background-color: grey;
-    color: lightslategrey;
-    text-align: center;
-    
+  background-color: grey;
+  color: lightslategrey;
+  text-align: center;
+  border-top: 5px solid #4aaaa5;
 }
 
 .box {
-    margin-top: 50px;
-    box-sizing: border-box;
-    background: white;
-
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  background: white;
+  padding: 20px 10px;
 }
 .boxhead {
-    margin-top: -10px;
-    /* margin-bottom: 10px; */
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #68bea2e7;
- 
+  margin-top: -10px;
+  /* margin-bottom: 10px; */
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #68bea2e7;
 }
 .info {
-    margin: 20px;
-    
+  margin: 20px;
 }
