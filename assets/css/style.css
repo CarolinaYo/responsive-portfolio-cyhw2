@@ -1,11 +1,7 @@
 main {
-  /* background image not working */
-  /* background-color: lightgray; */
-
   background: url("../images/background.jpg");
   background-size: cover;
-
-  min-height: calc(100vh - 95px);
+  min-height: calc(100vh - 145px);
   display: flex;
   flex-direction: column;
 }
@@ -19,10 +15,12 @@ main {
   color: #68bea2e7;
 }
 footer {
-  background-color: grey;
+  background-color: #666666;
   color: lightslategrey;
+  height: 50px;
   text-align: center;
-  border-top: 5px solid #4aaaa5;
+  padding-top: 10px ;
+  border-top: 5px solid #4aaaa5;  
 }
 
 .box {
@@ -34,7 +32,6 @@ footer {
 }
 .boxhead {
   margin-top: -10px;
-  /* margin-bottom: 10px; */
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: #68bea2e7;
