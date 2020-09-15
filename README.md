@@ -25,5 +25,5 @@ One of the chalenge I found from this assignment is modifying component found in
 ## MAINTAINER 
 This is an individual assignment created by Carolina Yoedhana.
 * Github Link: https://github.com/CarolinaYo/responsive-portfolio-cyhw2.git
-* Gitpage Link: 
+* Gitpage Link: https://carolinayo.github.io/responsive-portfolio-cyhw2/
 
