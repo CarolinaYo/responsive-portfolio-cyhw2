@@ -17,10 +17,13 @@ Language used:
 * CSS
 
 ## CHALLENGES
-
+One of the chalenge I found from this assignment is modifying component found in bootstrap to match the targeted website image. I learned that we can modify component and also combine parts of the bootstrap. Sources I used to complete this assignment are:
+* https://www.w3schools.com
+* https://developer.mozilla.org/
+* https://getbootstrap.com/
 
 ## MAINTAINER 
 This is an individual assignment created by Carolina Yoedhana.
-* Github Link:
+* Github Link: https://github.com/CarolinaYo/responsive-portfolio-cyhw2.git
 * Gitpage Link: 
 
