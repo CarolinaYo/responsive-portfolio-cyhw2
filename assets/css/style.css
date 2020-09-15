@@ -12,15 +12,17 @@ main {
 .navbar-name {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
-  color: #68bea2e7;
 }
-footer {
-  background-color: #666666;
-  color: lightslategrey;
-  height: 50px;
+
+.button {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
   text-align: center;
-  padding-top: 10px ;
-  border-top: 5px solid #4aaaa5;  
+  text-decoration: none;
+  display: inline-block;s
+  font-size: 14px;
+  padding: 15px 25px;
 }
 
 .box {
@@ -34,8 +36,24 @@ footer {
   margin-top: -10px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  color: #68bea2e7;
+  color: #4aaaa5;
 }
 .info {
   margin: 20px;
 }
+
+.form-group {
+  margin-left: 10px;
+  margin-right: 100px;
+
+}
+    
+footer {
+  background-color: #666666;
+  color: lightslategrey;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px ;
+  border-top: 5px solid #4aaaa5;  
+}
+  
