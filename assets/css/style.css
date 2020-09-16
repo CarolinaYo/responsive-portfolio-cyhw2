@@ -12,6 +12,7 @@ main {
 .navbar-name {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
+  background-color: #4aaaa5;
 }
 
 .button {
