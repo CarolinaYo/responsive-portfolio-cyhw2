@@ -8,11 +8,20 @@ main {
 .thumbnail {
   float: left;
   padding-right: 20px;
+ 
 }
 .navbar-name {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   background-color: #4aaaa5;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.bio-body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: grey;
 }
 
 .button {
@@ -21,7 +30,7 @@ main {
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;s
+  display: inline-block;
   font-size: 14px;
   padding: 15px 25px;
 }
@@ -32,6 +41,7 @@ main {
   box-sizing: border-box;
   background: white;
   padding: 20px 10px;
+  height: ;
 }
 .boxhead {
   margin-top: -10px;
