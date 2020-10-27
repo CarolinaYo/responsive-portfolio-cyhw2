@@ -5,11 +5,15 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.container {
+  max-width: 1020px;
+}
 .thumbnail {
   float: left;
   padding-right: 20px;
- 
 }
+
 .navbar-name {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
@@ -58,9 +62,17 @@ main {
   margin-left: 10px;
   margin-right: 100px;
 }
-    
+
 h4 {
-  color:darkgrey;
+  color: grey;
+}
+
+.work-detail {
+  color: grey;
+}
+
+.images:hover {
+  border: 1px solid lightslategray;
 }
 
 footer {
@@ -68,7 +80,6 @@ footer {
   color: lightslategrey;
   height: 50px;
   text-align: center;
-  padding-top: 10px ;
-  border-top: 5px solid #4aaaa5;  
+  padding-top: 10px;
+  border-top: 5px solid #4aaaa5;
 }
-  
