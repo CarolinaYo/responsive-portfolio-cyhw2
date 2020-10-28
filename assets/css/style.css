@@ -1,5 +1,6 @@
 main {
   background: url("../images/background.jpg");
+  background-blend-mode: overlay;
   background-size: cover;
   min-height: calc(100vh - 145px);
   display: flex;
@@ -12,6 +13,7 @@ main {
 .thumbnail {
   float: left;
   padding-right: 20px;
+
 }
 
 .navbar-name {
@@ -25,7 +27,7 @@ main {
 .bio-body {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  color: grey;
+  color: rgb(71, 71, 71);
   text-decoration: none;
 }
 
@@ -44,9 +46,11 @@ main {
   margin-top: 50px;
   margin-bottom: 50px;
   box-sizing: border-box;
-  background: white;
+  background: rgba(211, 211, 211, 0.425);
   padding: 20px 10px;
-  height: ;
+  border-radius: 15px;
+  
+  
 }
 .boxhead {
   margin-top: -10px;
@@ -54,8 +58,9 @@ main {
   font-weight: bold;
   color: #4aaaa5;
 }
-.info {
+.info { 
   margin: 20px;
+
 }
 
 .form-group {
@@ -68,7 +73,7 @@ h4 {
 }
 
 .work-detail {
-  color: grey;
+  color: rgb(71, 71, 71);;
 }
 
 .images:hover {
