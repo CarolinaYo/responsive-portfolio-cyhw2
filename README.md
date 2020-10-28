@@ -26,8 +26,9 @@ Sources I used to complete this assignment are:
 * https://developer.mozilla.org/
 * https://getbootstrap.com/
 
+
 ## MAINTAINER 
 This is an individual assignment created by Carolina Yoedhana.
 * Github Link: https://github.com/CarolinaYo/responsive-portfolio-cyhw2.git
-* Gitpage Link: https://carolinayo.github.io/responsive-portfolio-cyhw2/
+* Deployed page Link: https://carolinayo.github.io/responsive-portfolio-cyhw2/
 
