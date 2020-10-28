@@ -2,7 +2,10 @@
 
 ## INRODUCTION 
 
-This assignment is the project to building a responsive portfolio website using screenshot models provided.  In this process, we are to apply a combination of CSS and Bootstrap knowledge acquired through unit 2.  The deployed website will need to have the adaptability to varity of devices and screen size.
+This portfolio website is constructed using a combination of CSS and Bootstrap that has the adaptability to varity of devices and screen size.  I also utilize DOM manipulation technique to the html using simple command line with JQuery to append updated content information and links. You are welcome to check out some of my work sample on my GitHub. 
+
+## PREVIEW
+![demo](assets\images\CYPortfolio.gif)
 
 ## REQUIREMENT
 
@@ -15,9 +18,10 @@ The development of this portfolio site includes criteria such as:
 Language used:
 * Html
 * CSS
+* JQuery
 
-## CHALLENGES
-One of the chalenge I found from this assignment is modifying component found in bootstrap to match the targeted website image. I learned that we can modify component and also combine parts of the bootstrap. Sources I used to complete this assignment are:
+## SOURCES
+Sources I used to complete this assignment are:
 * https://www.w3schools.com
 * https://developer.mozilla.org/
 * https://getbootstrap.com/
