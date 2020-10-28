@@ -1,5 +1,5 @@
 main {
-  background: url("../images/backgroundsf2.jpg");
+  background: url("../Images/backgroundsf2.jpg");
   background-blend-mode: overlay;
   background-size: cover;
   min-height: calc(100vh - 145px);
