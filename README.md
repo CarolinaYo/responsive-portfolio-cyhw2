@@ -5,7 +5,7 @@
 This portfolio website is constructed using a combination of CSS and Bootstrap that has the adaptability to varity of devices and screen size.  I also utilize DOM manipulation technique to the html using simple command line with JQuery to append updated content information and links. You are welcome to check out some of my work sample on my GitHub. 
 
 ## PREVIEW
-![demo](assets\images\CYPortfolio.gif)
+![demo](assets/images/CYPortfolio.gif)
 
 ## REQUIREMENT
 
