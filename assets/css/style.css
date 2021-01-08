@@ -1,3 +1,7 @@
+body {
+font-family: 'Roboto', sans-serif;
+}
+
 main {
   background: url("../Images/backgroundsf2.jpg");
   background-blend-mode: overlay;
@@ -10,23 +14,41 @@ main {
 .container {
   max-width: 1020px;
 }
+
+hr {
+  background-color: #4aaaa5;
+  height: .25px;
+}
+
+/* Nav-bar Styling */
+
+.navbar-name {
+  /* font-family: "Times New Roman", Times, serif; */
+  font-size: 30px;
+  background-color: #4aaaa5;
+  border-radius: 7px;
+  padding: 8px;
+}
+
+/* About Me Styling */
+
 .thumbnail {
   float: left;
   padding-right: 20px;
 }
 
-.navbar-name {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  background-color: #4aaaa5;
-  border-radius: 10px;
-  padding: 5px;
+.bio-body p{
+  font-size: 20px;
+  /* background: rgba(146, 144, 144, 0.589); */
+line-height: 1.2;
+  color: rgb(92, 91, 91);
+margin-bottom: 8px;
+padding: 5px;
 }
 
-.bio-body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: whitesmoke;
+.bio-body a{
+  color: rgb(92, 91, 91);
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -41,20 +63,22 @@ main {
   
 }
 .boxhead {
-  margin-top: -10px;
-  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+  /* font-family: "Times New Roman", Times, serif; */
   font-weight: bold;
+  font-size: 30px;
   color: rgb(92, 91, 91);
 }
+
+
+/* Portfolio Styling */
+
 .info { 
   margin: 20px;
 
 }
 
-.form-group {
-  margin-left: 10px;
-  margin-right: 100px;
-}
+
 
 #name, h5 {
   color: rgb(92, 91, 91);
@@ -66,6 +90,11 @@ main {
 
 .images:hover {
   border: 1px solid lightslategray;
+}
+
+.form-group {
+  margin-left: 10px;
+  margin-right: 100px;
 }
 
 footer {
