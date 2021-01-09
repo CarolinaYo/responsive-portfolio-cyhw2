@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>CYPortfolio</title>
-    <!-- Required meta tags -->
+    <title>Carolina Yoedhana</title>
+    <!-- METADATA -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- CSS reset -->
-    <link rel="stylesheet" href="assets\css\reset.css" />
 
-    <!-- Bootstrap CSS -->
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      href="./assets/Images/iconS.png"
+      type="image/png"
+      sizes="16x16"
+    />
+
+    <!-- STYLESHEETS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -19,20 +25,32 @@
       crossorigin="anonymous"
     />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-
     <link
-      rel="icon"
-      href="./assets/images/iconS.png"
-      type="image/png"
-      sizes="16x16"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
     />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CUSTOM STYLESHEET -->
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
+      <!-- NAVIGATION -->
+
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand navbar-name text-white" href="index.html">C.Y</a>
+        <a class="navbar-brand navbar-name text-white" href="index.html"
+          >Carolina Yoedhana</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -49,19 +67,6 @@
           id="navbarNav"
         >
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link text-secondary"
-                target="_self"
-                href="contact.html"
-                >Contact</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" target="_self" href="portfolio.html"
-                >Portfolio<span class="sr-only">(current)</span></a
-              >
-            </li>
             <li class="nav-item active">
               <a
                 class="nav-link text-secondary"
@@ -70,87 +75,254 @@
                 >About
               </a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-dark" target="_self" href="portfolio.html"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-secondary"
+                target="_self"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
     </header>
+    <!-- MAIN BODY -->
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-1"></div>
+          <div class="col-md-10 justify">
             <section class="box">
-              <div class="info">
-                <h1 class="boxhead">Portfolio</h1>
-                <hr />
+              <h1 class="boxhead">Portfolio</h1>
+              <hr />
+              <div class="container portfolio">
                 <div class="row">
-                  <div class="col-lg-6 col-md-12 mb-4">
-                    <div class="card" style="width: 18rem">
-                      <img
-                        src="./assets/Images/225worksample1.png"
-                        class="card-img-top images"
-                        alt="work sample 1"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Random Password Generator</h5>
-                        <p class="card-text work-detail">
-                          This app generates password that satisfy certain
-                          criteria by utilizing math random number method.
-                        </p>
+                  <!-- PASSWORD GENERATOR -->
+
+                  <div class="col-lg-6 col-md-10">
+                    <div class="card">
+                      <div class="image-top">
                         <a
                           href="https://carolinayo.github.io/js-password-gen-cy/"
-                          class="btn btn-secondary"
-                          >Open</a
                         >
+                          <img
+                            src="./assets/Images/password_gen.png"
+                            class="card-img-top images"
+                            alt="work sample 1"
+                          />
+                        </a>
+
+                        <a
+                          href="https://carolinayo.github.io/js-password-gen-cy/"
+                          target="_blank"
+                        >
+                          <i class="fa fa-desktop fa-md" aria-hidden="true"></i
+                        ></a>
+
+                        <a
+                          href="https://github.com/CarolinaYo/js-password-gen-cy.git"
+                          target="_blank"
+                        >
+                          <i class="fa fa-github fa-lg" aria-hidden="true"></i
+                        ></a>
+                      </div>
+
+                      <div class="card-body">
+                        <h3 class="card-title">Random Password Generator</h3>
+                        <p class="card-text work-detail">
+                          This app generates a random number password that requires a set
+                          of criteria to be met.
+                        </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-lg-6 col-md-12 mb-4">
-                    <div class="card" style="width: 18rem">
-                      <img
-                        src="./assets/Images/225worksample2.png"
-                        class="card-img-top images"
-                        alt="work sample 2"
-                      />
+                  <!-- WEATHER DASHBOARD -->
+                  <div class="col-lg-6 col-md-10">
+                    <div class="card">
+                      <div class="image-top">
+                        <a
+                          href="https://carolinayo.github.io/weather-dashboard-cy/"
+                          target="_blank"
+                        >
+                          <img
+                            src="./assets/Images/weather_dash.png"
+                            class="card-img-top images"
+                            alt="work sample 2"
+                          />
+                        </a>
+                        <a
+                          href="https://carolinayo.github.io/weather-dashboard-cy/"
+                          target="_blank"
+                        >
+                          <i class="fa fa-desktop fa-md" aria-hidden="true"></i
+                        ></a>
+                        <a
+                          href="https://github.com/CarolinaYo/weather-dashboard-cy.git"
+                          ><i class="fa fa-github fa-lg" aria-hidden="true"></i
+                        ></a>
+                      </div>
+
                       <div class="card-body">
-                        <h5 class="card-title">The Weather Dashboard</h5>
+                        <h3 class="card-title">The Weather Dashboard</h3>
                         <p class="card-text work-detail">
                           Using
                           <a href="https://openweathermap.org/api"
                             >OpenWeather API</a
-                          >, this app retireves weather data and persisted
-                          searched data.
+                          >, this app retireves weather data of a city and persisted
+                          data to be recalled from the displayed historical list.
                         </p>
-                        <a
-                          href="https://carolinayo.github.io/weather-dashboard-cy/"
-                          class="btn btn-secondary"
-                          >Open</a
-                        >
                       </div>
                     </div>
                   </div>
-                </div>
+<!-- SCHEDULER -->
+                  <div class="col-lg-6 col-md-10">
+                    <div class="card">
+                      <div class="image-top">
+                        <a   href="https://carolinayo.github.io/workday-scheduler-cy/"
+                        target="_blank">
+                          <img
+                            src="./assets/Images/scheduler.png"
+                            class="card-img-top images"
+                            alt="Project 1"
+                          />
+                        </a>
+                        <a
+                        href="https://carolinayo.github.io/workday-scheduler-cy/"
+                        target="_blank"
+                      >
+                        <i class="fa fa-desktop fa-md" aria-hidden="true"></i
+                      ></a>
+                        <a href="https://github.com/CarolinaYo/workday-scheduler-cy.git"
+                        ><i class="fa fa-github fa-lg" aria-hidden="true"></i
+                      ></a>
+                    
 
-                <div class="row">
-                  <div class="col-lg-6 col-md-12 mb-4">
-                    <div class="card" style="width: 18rem">
-                      <img
+                      </div>
+                      
+
+                      <div class="card-body">
+                        <h3 class="card-title">Scheduler</h3>
+                        <p class="card-text work-detail">
+                          This is a calendar application that uses Moment.js to track the hourly section of the planner.  User can save the entry that will be stored in the local sorage.
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+<!-- BURGER STACK -->
+                  <div class="col-lg-6 col-md-10">
+                    <div class="card">
+                      <div class="image-top">
+                        <a>
+                          <img
+                          src="./assets/Images/eatdaburger.png"
+                          class="card-img-top images"
+                          alt="Project 1"
+                        />
+                        </a>
+  
+                        <a
+                        href="https://sheltered-anchorage-23068.herokuapp.com/"
+                        target="_blank"
+                      >
+                        <i class="fa fa-desktop fa-md" aria-hidden="true"></i
+                      ></a>
+                        <a href="https://github.com/CarolinaYo/eatdabuger-mvc.git"
+                        ><i class="fa fa-github fa-lg" aria-hidden="true"></i
+                      ></a>
+  
+                      </div>
+                      
+
+
+                      <div class="card-body">
+                        <h3 class="card-title">Eat Da Burger</h3>
+                        <p class="card-text work-detail">
+                         Eat Da Burger is a burger blog application that has the CRUD basic function.  This application is coded using MySql, Node, Express, and Handlebars that follow the MVC design pattern. 
+                         The live site is deployed in Heroku platform.
+                        </p>
+                       
+                      </div>
+                    </div>
+                  </div>
+<!-- TGOF -->
+                  <div class="col-lg-6 col-md-10">
+                    <div class="card">
+                      <div class="image-top">
+                       <a href="https://carolinayo.github.io/the-gifd-of-food/" target="_blank">
+                        <img
                         src="./assets/Images/225projectlogo.png"
                         class="card-img-top images"
                         alt="Project 1"
                       />
+
+                       </a>
+                        
+                       <a
+                       href="https://carolinayo.github.io/the-gifd-of-food/"
+                       target="_blank"
+                     >
+                       <i class="fa fa-desktop fa-md" aria-hidden="true"></i
+                     ></a>
+
+                      <a href="https://github.com/CarolinaYo/the-gifd-of-food.git" target="_blank">
+                        <i class="fa fa-github fa-lg" aria-hidden="true"></i
+                    ></a>
+
+
+                      </div>
+                      
                       <div class="card-body">
-                        <h5 class="card-title">Project: The Gifd of Food</h5>
+                        <h3 class="card-title">Team Project: The Gifd of Food</h3>
                         <p class="card-text work-detail">
-                          Utilizing server side API request, this app retrieves
-                          random gifs images and recipe searches. In the
-                          process, selected recipe can be persisted.
+                          This application utilizes two different server side API requests to handle the task. It performs recipe searches and retrieves
+                          random gifs images that relates to the recipe. In the
+                          process, using local storage, selected recipe can be saved and recalled.
                         </p>
+
+                      </div>
+                    </div>
+                  </div>
+<!-- GIFNJELLY -->
+                  <div class="col-lg-6 col-md-10">
+                    <div class="card">
+                      <div class="image-top">
+                        <a href="https://mighty-fjord-82642.herokuapp.com/"
+                        target="_blank">
+                          <img
+                          src="./assets/Images/gifnjelly.png"
+                          class="card-img-top images"
+                          alt="Project 2"
+                        />
+                        </a>
+                      
                         <a
-                          href="https://carolinayo.github.io/the-gifd-of-food/"
-                          class="btn btn-secondary"
-                          >Open</a
-                        >
+                        href="https://mighty-fjord-82642.herokuapp.com/"
+                        target="_blank"
+                      >
+                        <i class="fa fa-desktop fa-md" aria-hidden="true"></i
+                      ></a>
+ 
+                       <a href="https://github.com/TommyWillen/gifNjelly.git" target="_blank">
+                         <i class="fa fa-github fa-lg" aria-hidden="true"></i
+                     ></a>
+
+                      </div>
+                      
+                      <div class="card-body">
+                        <h3 class="card-title">Team Project: gifNjelly</h3>
+                        <p class="card-text work-detail">
+                          Using Sequelize ORM for MySQL and Passport authentication for Node.js, this application member based online social interaction experience. It processes sign-up and log-in that can be autheticated to restrict member's only access.  The live site is deployed in Heroku platform.
+                        
                       </div>
                     </div>
                   </div>
