@@ -1,5 +1,5 @@
 body {
-font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -17,7 +17,7 @@ main {
 
 hr {
   background-color: #4aaaa5;
-  height: .25px;
+  height: 0.25px;
 }
 
 /* Nav-bar Styling */
@@ -37,20 +37,16 @@ hr {
   padding-right: 20px;
 }
 
-.bio-body p{
+.bio-body p {
   font-size: 20px;
   /* background: rgba(146, 144, 144, 0.589); */
-line-height: 1.2;
+  line-height: 1.2;
   color: rgb(92, 91, 91);
-margin-bottom: 8px;
-padding: 5px;
+  margin-bottom: 8px;
+  padding: 5px;
 }
 
-.bio-body a{
-  color: rgb(92, 91, 91);
-  font-weight: bold;
-  text-decoration: none;
-}
+
 
 .box {
   margin-top: 50px;
@@ -59,8 +55,6 @@ padding: 5px;
   background: rgba(146, 144, 144, 0.589);
   padding: 20px 10px;
   border-radius: 15px;
-  
-  
 }
 .boxhead {
   margin-top: 10px;
@@ -70,7 +64,6 @@ padding: 5px;
   color: rgb(92, 91, 91);
 }
 
-
 /* Portfolio Styling */
 
 .portfolio .card {
@@ -78,27 +71,25 @@ padding: 5px;
 }
 
 .portfolio img:hover {
-opacity: 0.8;
-border:none;
+  opacity: 0.8;
+  border: none;
 }
 
-.portfolio a{
+.portfolio a {
   color: #3d3d3d;
   text-decoration: none;
   font-weight: bold;
 }
 
-.portfolio p{
+.portfolio p {
   color: rgb(92, 91, 91);
   line-height: 1.2;
   font-size: 18px;
-
 }
-.portfolio h3{
+.portfolio h3 {
   color: rgb(92, 91, 91);
- font-weight: bold;
- font-size: 20px;
-
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .portfolio .fa-desktop {
@@ -106,36 +97,16 @@ border:none;
   margin-top: 10px;
   margin-right: 10px;
   float: right;
-
-
 }
 .portfolio .fa-github {
   padding: 10px;
   margin-top: 10px;
   /* margin-right: 30px; */
   float: right;
-
-
 }
-
-
 
 .portfolio .fa:hover {
-color:#4aaaa5;
-
-
-}
-/* Contact Styling */
-
-.info { 
-  margin: 20px;
-
-}
-
-
-
-#name, h5 {
-  color: rgb(92, 91, 91);
+  color: #4aaaa5;
 }
 
 .work-detail {
@@ -146,10 +117,29 @@ color:#4aaaa5;
   border: 1px solid lightslategray;
 }
 
-.form-group {
-  margin-left: 10px;
-  margin-right: 100px;
+
+/* Contact Styling */
+
+.info {
+  margin: 20px;
 }
+
+#name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bio-body a {
+  color: rgb(92, 91, 91);
+  font-weight: bold;
+  text-decoration: none;
+}
+.bio-body a:hover {
+  color: whitesmoke;
+  font-weight: bold;
+  /* text-decoration: none; */
+}
+
 
 footer {
   background-color: #666666;
