@@ -1,7 +1,5 @@
 $(document).ready(function () {
-  $("#bioDetail").text(
-    "Hello, my name is Carolina."
-  );
+  $("#bioDetail").text("Hello, my name is Carolina.");
 
   let a = $("<a>").text("GitHub");
   let gitHubLink = a.attr("href", "https://github.com/CarolinaYo");
@@ -9,8 +7,8 @@ $(document).ready(function () {
 
   // $("#bioDetail").append(pOne);
 
-  let resume = $("<a>").text("Click here to view resume");
-  let pdf = resume.attr("href", "assets/YoedhanaResume_bootcamp2020.pdf");
-  let pTwo = $("<p>").text("Resume: ").append(pdf);
-  $("#contactInfo").append(pTwo);
+  // let resume = $("<a>").text("Click here to view resume");
+  // let pdf = resume.attr("href", "assets/YoedhanaResume_bootcamp2020.pdf");
+  // let pTwo = $("<p>").text("Resume: ").append(pdf);
+  // $("#contactInfo").append(pTwo);
 });
