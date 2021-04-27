@@ -1,4 +1,4 @@
-# Homework 2: CSS and Bootstrap: Responsive portfolio
+# CSS and Bootstrap: Responsive portfolio
 
 ## INRODUCTION
 
